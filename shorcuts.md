@@ -1,0 +1,3 @@
+- control + R = execute code
+- select (cmd + /) = comment 
+- select (shift +()) = puts bracket round the selected text 
