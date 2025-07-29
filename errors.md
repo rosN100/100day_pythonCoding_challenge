@@ -4,3 +4,4 @@
 ### - type error
 ### - indentation error
 ### - ValueError
+### - indexOutOfRangeError
