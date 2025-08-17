@@ -74,15 +74,65 @@
 # result = is_leap(2000)
 # print(result)
 
-def fizz_buzz(target):
-    for number in range(1, target + 1):
-        if number % 3 == 0 and number % 5 == 0:
-            print("FizzBuzz")
-        elif number % 3 == 0:
-            print("Fizz")
-        elif number % 5 == 0:
-            print("Buzz")
-        else:
-            print([number])
+# def fizz_buzz(target):
+#     for number in range(1, target + 1):
+#         if number % 3 == 0 and number % 5 == 0:
+#             print("FizzBuzz")
+#         elif number % 3 == 0:
+#             print("Fizz")
+#         elif number % 5 == 0:
+#             print("Buzz")
+#         else:
+#             print([number])
+#
+# fizz_buzz(10)
 
-fizz_buzz(10)
+# num = "89"
+# value = 56
+# print(num*value)
+
+# for i in range(3):
+#     print(i)
+# else:
+# #     print("Done!")
+# for i in range(3):
+#     print(i)
+#     break
+# else:
+#     print("Done!")
+#
+# x = [1,2,3]
+# y = x
+# y.append(4)
+# print(x)
+
+# x ="india"
+# y= x
+# y += y
+# print(x)
+# print(y)
+#
+# def greet(name="World"):
+#     return "Hello " + name
+#
+# print(greet())
+# print(greet("Roshan"))
+
+# def test():
+#     print(age)
+#
+# test()
+# result = int(input("enter a number"))
+# print(result)
+
+# def add(a, b):
+#     """Return the sum of two numbers."""
+#     return a + b
+#
+# print(add.__doc__)   # prints: Return the sum of two numbers.
+
+# print(help(str))
+nested = {frozenset([1, 2]), frozenset([3, 4])}
+nested[0].append(5)
+print(nested)
+
